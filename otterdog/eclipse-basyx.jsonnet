@@ -308,8 +308,8 @@ orgs.newOrg('eclipse-basyx') {
       allow_update_branch: false,
       default_branch: "master",
       delete_branch_on_merge: false,
-      secret_scanning: "disabled",
-      secret_scanning_push_protection: "disabled",
+      secret_scanning: "enabled",
+      secret_scanning_push_protection: "enabled",
       web_commit_signoff_required: false,
       workflows+: {
         enabled: false,
