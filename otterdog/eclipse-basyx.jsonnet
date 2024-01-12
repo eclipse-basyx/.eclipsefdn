@@ -322,12 +322,7 @@ orgs.newOrg('eclipse-basyx') {
             "pull_request",
             "push"
           ],
-          secret: "********",
-        },
-      ],
-      secrets: [
-        orgs.newRepoSecret('READTHEDOCS_WIKI_TOKEN') {
-          value: "********",
+          secret: "pass:bots/dt.basyx/readthedocs.org/wiki-webhook-secret",
         },
       ],
     },
