@@ -323,11 +323,6 @@ orgs.newOrg('eclipse-basyx') {
             "push"
           ],
           secret: "********",
-          secrets: [
-            orgs.newRepoSecret('READTHEDOCS_WIKI_TOKEN') {
-              value: "********",
-            },
-          ],
         },
       ],
     },
