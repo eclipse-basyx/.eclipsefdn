@@ -32,8 +32,6 @@ orgs.newOrg('eclipse-basyx') {
       allow_merge_commit: true,
       allow_update_branch: false,
       delete_branch_on_merge: false,
-      secret_scanning: "disabled",
-      secret_scanning_push_protection: "disabled",
       web_commit_signoff_required: false,
       workflows+: {
         default_workflow_permissions: "write",
@@ -44,8 +42,6 @@ orgs.newOrg('eclipse-basyx') {
       allow_update_branch: false,
       delete_branch_on_merge: false,
       description: "applications",
-      secret_scanning: "disabled",
-      secret_scanning_push_protection: "disabled",
       web_commit_signoff_required: false,
       workflows+: {
         default_workflow_permissions: "write",
@@ -54,8 +50,6 @@ orgs.newOrg('eclipse-basyx') {
     orgs.newRepo('basyx-archive') {
       archived: true,
       description: "Archived single repo",
-      secret_scanning: "disabled",
-      secret_scanning_push_protection: "disabled",
       web_commit_signoff_required: false,
       workflows+: {
         default_workflow_permissions: "write",
@@ -66,8 +60,6 @@ orgs.newOrg('eclipse-basyx') {
       allow_update_branch: false,
       delete_branch_on_merge: false,
       description: "cpp-components",
-      secret_scanning: "disabled",
-      secret_scanning_push_protection: "disabled",
       web_commit_signoff_required: false,
       workflows+: {
         default_workflow_permissions: "write",
@@ -79,8 +71,6 @@ orgs.newOrg('eclipse-basyx') {
       delete_branch_on_merge: false,
       description: "cpp-sdk",
       homepage: "",
-      secret_scanning: "disabled",
-      secret_scanning_push_protection: "disabled",
       topics+: [
         "basyx"
       ],
@@ -93,8 +83,6 @@ orgs.newOrg('eclipse-basyx') {
       allow_merge_commit: true,
       allow_update_branch: false,
       delete_branch_on_merge: false,
-      secret_scanning: "disabled",
-      secret_scanning_push_protection: "disabled",
       web_commit_signoff_required: false,
       workflows+: {
         default_workflow_permissions: "write",
@@ -104,8 +92,6 @@ orgs.newOrg('eclipse-basyx') {
       allow_merge_commit: true,
       allow_update_branch: false,
       delete_branch_on_merge: false,
-      secret_scanning: "disabled",
-      secret_scanning_push_protection: "disabled",
       web_commit_signoff_required: false,
       workflows+: {
         default_workflow_permissions: "write",
@@ -115,8 +101,6 @@ orgs.newOrg('eclipse-basyx') {
       allow_merge_commit: true,
       allow_update_branch: false,
       delete_branch_on_merge: false,
-      secret_scanning: "disabled",
-      secret_scanning_push_protection: "disabled",
       web_commit_signoff_required: false,
       workflows+: {
         default_workflow_permissions: "write",
@@ -127,8 +111,6 @@ orgs.newOrg('eclipse-basyx') {
       allow_update_branch: false,
       delete_branch_on_merge: false,
       description: "dotnet-applications",
-      secret_scanning: "disabled",
-      secret_scanning_push_protection: "disabled",
       web_commit_signoff_required: false,
       workflows+: {
         default_workflow_permissions: "write",
@@ -139,8 +121,6 @@ orgs.newOrg('eclipse-basyx') {
       allow_update_branch: false,
       delete_branch_on_merge: false,
       description: "dotnet-components",
-      secret_scanning: "disabled",
-      secret_scanning_push_protection: "disabled",
       web_commit_signoff_required: false,
       workflows+: {
         default_workflow_permissions: "write",
@@ -151,8 +131,6 @@ orgs.newOrg('eclipse-basyx') {
       allow_update_branch: false,
       delete_branch_on_merge: false,
       description: "dotnet-examples",
-      secret_scanning: "disabled",
-      secret_scanning_push_protection: "disabled",
       web_commit_signoff_required: false,
       workflows+: {
         default_workflow_permissions: "write",
@@ -163,8 +141,6 @@ orgs.newOrg('eclipse-basyx') {
       allow_update_branch: false,
       delete_branch_on_merge: false,
       description: "dotnet-sdk",
-      secret_scanning: "disabled",
-      secret_scanning_push_protection: "disabled",
       web_commit_signoff_required: false,
       workflows+: {
         default_workflow_permissions: "write",
@@ -176,8 +152,6 @@ orgs.newOrg('eclipse-basyx') {
       delete_branch_on_merge: false,
       description: "java-components",
       homepage: "",
-      secret_scanning: "disabled",
-      secret_scanning_push_protection: "disabled",
       topics+: [
         "basyx"
       ],
@@ -192,8 +166,6 @@ orgs.newOrg('eclipse-basyx') {
       delete_branch_on_merge: false,
       description: "java-examples",
       homepage: "",
-      secret_scanning: "disabled",
-      secret_scanning_push_protection: "disabled",
       topics+: [
         "basyx"
       ],
@@ -208,8 +180,6 @@ orgs.newOrg('eclipse-basyx') {
       delete_branch_on_merge: false,
       description: "java-sdk",
       homepage: "",
-      secret_scanning: "disabled",
-      secret_scanning_push_protection: "disabled",
       topics+: [
         "basyx"
       ],
@@ -222,8 +192,6 @@ orgs.newOrg('eclipse-basyx') {
       allow_merge_commit: true,
       allow_update_branch: false,
       delete_branch_on_merge: false,
-      secret_scanning: "disabled",
-      secret_scanning_push_protection: "disabled",
       web_commit_signoff_required: false,
       workflows+: {
         default_workflow_permissions: "write",
@@ -233,8 +201,6 @@ orgs.newOrg('eclipse-basyx') {
       allow_merge_commit: true,
       allow_update_branch: false,
       delete_branch_on_merge: false,
-      secret_scanning: "disabled",
-      secret_scanning_push_protection: "disabled",
       web_commit_signoff_required: false,
       workflows+: {
         default_workflow_permissions: "write",
@@ -261,8 +227,6 @@ orgs.newOrg('eclipse-basyx') {
       allow_merge_commit: true,
       allow_update_branch: false,
       delete_branch_on_merge: false,
-      secret_scanning: "disabled",
-      secret_scanning_push_protection: "disabled",
       web_commit_signoff_required: false,
       workflows+: {
         default_workflow_permissions: "write",
@@ -273,8 +237,6 @@ orgs.newOrg('eclipse-basyx') {
       allow_update_branch: false,
       default_branch: "master",
       delete_branch_on_merge: false,
-      secret_scanning: "disabled",
-      secret_scanning_push_protection: "disabled",
       web_commit_signoff_required: false,
       workflows+: {
         default_workflow_permissions: "write",
@@ -290,8 +252,6 @@ orgs.newOrg('eclipse-basyx') {
       allow_update_branch: false,
       default_branch: "master",
       delete_branch_on_merge: false,
-      secret_scanning: "disabled",
-      secret_scanning_push_protection: "disabled",
       web_commit_signoff_required: false,
       workflows+: {
         enabled: false,
