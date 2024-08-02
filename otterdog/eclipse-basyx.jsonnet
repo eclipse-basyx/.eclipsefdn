@@ -222,6 +222,15 @@ orgs.newOrg('eclipse-basyx') {
         },
       ],
     },
+    orgs.newRepo('basyx-python-framework') {
+      allow_merge_commit: true,
+      allow_update_branch: false,
+      delete_branch_on_merge: false,
+      web_commit_signoff_required: false,
+      workflows+: {
+        default_workflow_permissions: "read",
+      },
+    },
     orgs.newRepo('basyx-rust-sdk') {
       allow_merge_commit: true,
       allow_update_branch: false,
