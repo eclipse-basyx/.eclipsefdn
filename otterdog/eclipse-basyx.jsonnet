@@ -46,6 +46,23 @@ orgs.newOrg('eclipse-basyx') {
         default_workflow_permissions: "write",
       },
     },
+    orgs.newRepo('basyx-aas-web-ui') {
+      allow_merge_commit: true,
+      allow_update_branch: false,
+      delete_branch_on_merge: false,
+      description: "Web-based user interface for managing and interacting with Asset Administration Shells (AAS)",
+      topics+: [
+        "basyx",
+        "aas",
+        "assetadministrationshell",
+        "web-ui",
+        "vue"
+      ],
+      web_commit_signoff_required: false,
+      workflows+: {
+        default_workflow_permissions: "read",
+      },
+    },
     orgs.newRepo('basyx-archive') {
       archived: true,
       description: "Archived single repo",
