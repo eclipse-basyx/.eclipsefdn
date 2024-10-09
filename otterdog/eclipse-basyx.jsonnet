@@ -257,6 +257,23 @@ orgs.newOrg('eclipse-basyx') {
         default_workflow_permissions: "write",
       },
     },
+    orgs.newRepo('basyx-pdf-to-aas') {
+      allow_merge_commit: true,
+      allow_update_branch: false,
+      delete_branch_on_merge: false,
+      web_commit_signoff_required: false,
+      description: "Python library to extract technical data via LLMs from PDF and export them in AAS format.",
+      topics+: [
+        "basyx",
+        "aas",
+        "asset-administration-shell",
+        "large-language-model",
+        "technical-data-extraction"
+      ],
+      workflows+: {
+        default_workflow_permissions: "write",
+      },
+    },
     orgs.newRepo('basyx-website') {
       allow_merge_commit: true,
       allow_update_branch: false,
