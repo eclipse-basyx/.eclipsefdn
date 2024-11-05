@@ -25,6 +25,12 @@ orgs.newOrg('eclipse-basyx') {
     orgs.newOrgSecret('PYPI_ORG_TOKEN') {
       value: "********",
     },
+    orgs.newOrgSecret('DOCKER_HUB_TOKEN') {
+      value: "pass:bots/dt.basyx/docker.com/api-token",
+    },
+    orgs.newOrgSecret('DOCKER_HUB_USER') {
+      value: "pass:bots/dt.basyx/docker.com/username",
+    },
   ],
   _repositories+:: [
     orgs.newRepo('.github') {
