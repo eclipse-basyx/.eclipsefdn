@@ -1,6 +1,6 @@
 local orgs = import 'vendor/otterdog-defaults/otterdog-defaults.libsonnet';
 
-orgs.newOrg('eclipse-basyx') {
+orgs.newOrg('dt.basyx', 'eclipse-basyx') {
   settings+: {
     description: "",
     name: "Eclipse BaSyx™",
