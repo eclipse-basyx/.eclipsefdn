@@ -69,6 +69,23 @@ orgs.newOrg('dt.basyx', 'eclipse-basyx') {
         default_workflow_permissions: "read",
       },
     },
+    orgs.newRepo('basyx-typescript-sdk') {
+      allow_merge_commit: true,
+      allow_update_branch: false,
+      delete_branch_on_merge: false,
+      description: "BaSyx TypeScript SDK for developing applications and components for the Asset Administration Shell (AAS)",
+      topics+: [
+        "basyx",
+        "aas",
+        "assetadministrationshell",
+        "client",
+        "utils"
+      ],
+      web_commit_signoff_required: false,
+      workflows+: {
+        default_workflow_permissions: "read",
+      },
+    },
     orgs.newRepo('basyx-archive') {
       archived: true,
       description: "Archived single repo",
