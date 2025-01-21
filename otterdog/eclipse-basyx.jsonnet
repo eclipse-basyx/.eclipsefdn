@@ -25,6 +25,9 @@ orgs.newOrg('dt.basyx', 'eclipse-basyx') {
     orgs.newOrgSecret('PYPI_ORG_TOKEN') {
       value: "********",
     },
+    orgs.newOrgSecret('NPMJS_TOKEN') {
+      value: 'pass:bots/dt.basyx/npmjs.com/api-token',
+    },
     orgs.newOrgSecret('DOCKER_HUB_TOKEN') {
       value: "pass:bots/dt.basyx/docker.com/api-token",
     },
