@@ -14,7 +14,8 @@ orgs.newOrg('dt.basyx', 'eclipse-basyx') {
       content_type: "json",
       events+: [
         "pull_request",
-        "push"
+        "push",
+        "release"
       ],
     },
   ],
