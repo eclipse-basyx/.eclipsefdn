@@ -35,6 +35,21 @@ orgs.newOrg('dt.basyx', 'eclipse-basyx') {
     orgs.newOrgSecret('DOCKER_HUB_USER') {
       value: "pass:bots/dt.basyx/docker.com/username",
     },
+    orgs.newOrgSecret('ORG_GPG_KEY_ID') {
+      value: 'pass:bots/dt.basyx/gpg/key_id',
+    },
+    orgs.newOrgSecret('ORG_GPG_PASSPHRASE') {
+      value: 'pass:bots/dt.basyx/gpg/passphrase',
+    },
+    orgs.newOrgSecret('ORG_GPG_PRIVATE_KEY') {
+      value: 'pass:bots/dt.basyx/gpg/secret-subkeys.asc',
+    },
+    orgs.newOrgSecret('ORG_OSSRH_PASSWORD') {
+      value: 'pass:bots/dt.basyx/central.sonatype.org/password',
+    },
+    orgs.newOrgSecret('ORG_OSSRH_USERNAME') {
+      value: 'pass:bots/dt.basyx/central.sonatype.org/username',
+    },
   ],
   _repositories+:: [
     orgs.newRepo('.github') {
