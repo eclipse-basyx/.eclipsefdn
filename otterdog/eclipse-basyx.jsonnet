@@ -44,11 +44,11 @@ orgs.newOrg('dt.basyx', 'eclipse-basyx') {
     orgs.newOrgSecret('ORG_GPG_PRIVATE_KEY') {
       value: 'pass:bots/dt.basyx/gpg/secret-subkeys.asc',
     },
-    orgs.newOrgSecret('ORG_OSSRH_PASSWORD') {
-      value: 'pass:bots/dt.basyx/central.sonatype.org/password',
+    orgs.newOrgSecret('CENTRAL_SONATYPE_TOKEN_PASSWORD') {
+      value: 'pass:bots/dt.basyx/central.sonatype.org/token-password',
     },
-    orgs.newOrgSecret('ORG_OSSRH_USERNAME') {
-      value: 'pass:bots/dt.basyx/central.sonatype.org/username',
+    orgs.newOrgSecret('CENTRAL_SONATYPE_TOKEN_USERNAME') {
+      value: 'pass:bots/dt.basyx/central.sonatype.org/token-username',
     },
   ],
   _repositories+:: [
