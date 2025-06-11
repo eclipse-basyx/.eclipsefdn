@@ -371,9 +371,9 @@ orgs.newOrg('dt.basyx', 'eclipse-basyx') {
       topics+: [
         "helm-charts",
         "basyx",
-        "cloud"
+        "cloud",
         "aas",
-        "assetadministrationshell",
+        "assetadministrationshell"
       ],
       gh_pages_build_type: "legacy",
       gh_pages_source_branch: "gh-pages",
