@@ -363,5 +363,34 @@ orgs.newOrg('dt.basyx', 'eclipse-basyx') {
         },
       ],
     },
+    orgs.newRepo('charts') {
+      allow_merge_commit: true,
+      allow_update_branch: false,
+      delete_branch_on_merge: false,
+      description: "This repository contains Helm charts for Eclipse BaSyx",
+      topics+: [
+        "helm-charts",
+        "basyx",
+        "cloud",
+        "aas",
+        "assetadministrationshell"
+      ],
+      gh_pages_build_type: "legacy",
+      gh_pages_source_branch: "gh-pages",
+      gh_pages_source_path: "/",
+      private_vulnerability_reporting_enabled: true,
+      web_commit_signoff_required: false,
+      workflows+: {
+        default_workflow_permissions: "write",
+      },
+      environments: [
+        orgs.newEnvironment('github-pages') {
+          branch_policies+: [
+            "main"
+          ],
+          deployment_branch_policy: "selected",
+        },
+      ],
+    },
   ],
 }
