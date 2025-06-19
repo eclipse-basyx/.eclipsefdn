@@ -386,7 +386,8 @@ orgs.newOrg('dt.basyx', 'eclipse-basyx') {
       environments: [
         orgs.newEnvironment('github-pages') {
           branch_policies+: [
-            "main"
+            "main",
+            "gh-pages"
           ],
           deployment_branch_policy: "selected",
         },
