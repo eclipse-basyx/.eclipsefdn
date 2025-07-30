@@ -364,7 +364,7 @@ orgs.newOrg('dt.basyx', 'eclipse-basyx') {
       ],
     },
     orgs.newRepo('charts') {
-      allow_merge_commit: true,
+      allow_merge_commit: false,
       allow_update_branch: false,
       delete_branch_on_merge: false,
       description: "This repository contains Helm charts for Eclipse BaSyx",
