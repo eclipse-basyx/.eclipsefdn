@@ -105,6 +105,24 @@ orgs.newOrg('dt.basyx', 'eclipse-basyx') {
         default_workflow_permissions: "read",
       },
     },
+    orgs.newRepo('basyx-go-components') {
+      allow_merge_commit: true,
+      allow_update_branch: false,
+      delete_branch_on_merge: false,
+      description: "The BaSyx Go Components include all standardized Server Components as per AAS Specification Part 2: Application Programming Interfaces",
+      topics+: [
+        "basyx",
+        "aas",
+        "assetadministrationshell",
+        "server",
+        "go",
+        "api"
+      ],
+      web_commit_signoff_required: false,
+      workflows+: {
+        default_workflow_permissions: "read",
+      },
+    },
     orgs.newRepo('basyx-archive') {
       archived: true,
       description: "Archived single repo",
