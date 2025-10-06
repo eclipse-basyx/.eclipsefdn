@@ -84,6 +84,7 @@ orgs.newOrg('dt.basyx', 'eclipse-basyx') {
         "vue"
       ],
       web_commit_signoff_required: false,
+      has_discussions: true,
       workflows+: {
         default_workflow_permissions: "read",
       },
@@ -101,6 +102,7 @@ orgs.newOrg('dt.basyx', 'eclipse-basyx') {
         "utils"
       ],
       web_commit_signoff_required: false,
+      has_discussions: true,
       workflows+: {
         default_workflow_permissions: "read",
       },
@@ -119,6 +121,7 @@ orgs.newOrg('dt.basyx', 'eclipse-basyx') {
         "api"
       ],
       web_commit_signoff_required: false,
+      has_discussions: true,
       workflows+: {
         default_workflow_permissions: "read",
       },
@@ -269,6 +272,7 @@ orgs.newOrg('dt.basyx', 'eclipse-basyx') {
       allow_update_branch: false,
       delete_branch_on_merge: false,
       web_commit_signoff_required: false,
+      has_discussions: true,
       workflows+: {
         default_workflow_permissions: "write",
       },
