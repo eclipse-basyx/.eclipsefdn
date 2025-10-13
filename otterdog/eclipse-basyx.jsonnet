@@ -126,6 +126,24 @@ orgs.newOrg('dt.basyx', 'eclipse-basyx') {
         default_workflow_permissions: "read",
       },
     },
+    orgs.newRepo('node-red-contrib-aas') {
+      allow_merge_commit: true,
+      allow_update_branch: false,
+      delete_branch_on_merge: false,
+      description: "NodeRED nodes to communicate with the AAS API",
+      topics+: [
+        "NodeRED",
+        "aas",
+        "assetadministrationshell",
+        "nodes",
+        "flow"
+      ],
+      web_commit_signoff_required: false,
+      has_discussions: true,
+      workflows+: {
+        default_workflow_permissions: "read",
+      },
+    },
     orgs.newRepo('basyx-archive') {
       archived: true,
       description: "Archived single repo",
