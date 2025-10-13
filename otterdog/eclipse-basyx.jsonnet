@@ -132,7 +132,7 @@ orgs.newOrg('dt.basyx', 'eclipse-basyx') {
       delete_branch_on_merge: false,
       description: "NodeRED nodes to communicate with the AAS API",
       topics+: [
-        "NodeRED",
+        "nodered",
         "aas",
         "assetadministrationshell",
         "nodes",
