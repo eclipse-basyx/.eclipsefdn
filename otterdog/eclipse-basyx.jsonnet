@@ -303,12 +303,6 @@ orgs.newOrg('dt.basyx', 'eclipse-basyx') {
       allow_merge_commit: true,
       allow_update_branch: false,
       delete_branch_on_merge: false,
-      description: "The Eclipse BaSyx Python SDK, an implementation of the Asset Administration Shell (AAS) for Industry 4.0 systems",
-      topics+: [
-        "basyx",
-        "aas",
-        "assetadministrationshell",
-      ],
       web_commit_signoff_required: false,
       has_discussions: true,
       workflows+: {
