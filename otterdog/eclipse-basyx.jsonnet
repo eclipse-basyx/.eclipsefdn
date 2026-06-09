@@ -132,7 +132,7 @@ orgs.newOrg('dt.basyx', 'eclipse-basyx') {
         "dpp",
         "digital-product-passport",
         "aas",
-        "JTC24",
+        "jtc24",
         "espr",
         "api"
       ],
