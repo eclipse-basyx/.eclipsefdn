@@ -123,6 +123,25 @@ orgs.newOrg('dt.basyx', 'eclipse-basyx') {
         default_workflow_permissions: "read",
       },
     },
+    orgs.newRepo('dpp-api') {
+      allow_merge_commit: true,
+      allow_update_branch: false,
+      delete_branch_on_merge: false,
+      description: "The Digital Product Passport API includes the standardized Server Components as per JTC24 DPP Specification",
+      topics+: [
+        "dpp",
+        "digital-product-passport",
+        "aas",
+        "server",
+        "go",
+        "api"
+      ],
+      web_commit_signoff_required: false,
+      has_discussions: true,
+      workflows+: {
+        default_workflow_permissions: "read",
+      },
+    },
     orgs.newRepo('node-red-contrib-aas') {
       allow_merge_commit: true,
       allow_update_branch: false,
