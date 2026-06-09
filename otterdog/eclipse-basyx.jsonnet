@@ -123,6 +123,26 @@ orgs.newOrg('dt.basyx', 'eclipse-basyx') {
         default_workflow_permissions: "read",
       },
     },
+    orgs.newRepo('dpp-api') {
+      allow_merge_commit: true,
+      allow_update_branch: false,
+      delete_branch_on_merge: false,
+      description: "Open Source implementation of the EN 18222 2026 Digital Product Passport API standard",
+      topics+: [
+        "dpp",
+        "digital-product-passport",
+        "aas",
+        "jtc24",
+        "espr",
+        "ecodesign",
+        "api"
+      ],
+      web_commit_signoff_required: false,
+      has_discussions: true,
+      workflows+: {
+        default_workflow_permissions: "read",
+      },
+    },
     orgs.newRepo('node-red-contrib-aas') {
       allow_merge_commit: true,
       allow_update_branch: false,
