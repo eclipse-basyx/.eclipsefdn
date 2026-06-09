@@ -127,7 +127,7 @@ orgs.newOrg('dt.basyx', 'eclipse-basyx') {
       allow_merge_commit: true,
       allow_update_branch: false,
       delete_branch_on_merge: false,
-      description: "The Digital Product Passport API includes the standardized Server Components as per JTC24 DPP Specification",
+      description: "The Digital Product Passport API includes the standardized Server Components as per EN 18222: 2026 DPP API Specification",
       topics+: [
         "dpp",
         "digital-product-passport",
