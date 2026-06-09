@@ -134,6 +134,7 @@ orgs.newOrg('dt.basyx', 'eclipse-basyx') {
         "aas",
         "jtc24",
         "espr",
+        "ecodesign",
         "api"
       ],
       web_commit_signoff_required: false,
