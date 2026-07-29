@@ -278,6 +278,7 @@ orgs.newOrg('dt.basyx', 'eclipse-basyx') {
       },
     },
     orgs.newRepo('basyx-java-components') {
+      archived: true,
       allow_merge_commit: true,
       allow_update_branch: false,
       delete_branch_on_merge: false,
@@ -292,6 +293,7 @@ orgs.newOrg('dt.basyx', 'eclipse-basyx') {
       },
     },
     orgs.newRepo('basyx-java-examples') {
+      archived: true,
       allow_merge_commit: true,
       allow_update_branch: false,
       delete_branch_on_merge: false,
@@ -306,6 +308,7 @@ orgs.newOrg('dt.basyx', 'eclipse-basyx') {
       },
     },
     orgs.newRepo('basyx-java-sdk') {
+      archived: true,
       allow_merge_commit: true,
       allow_update_branch: false,
       delete_branch_on_merge: false,
