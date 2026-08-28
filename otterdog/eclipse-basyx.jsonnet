@@ -86,6 +86,26 @@ orgs.newOrg('dt.basyx', 'eclipse-basyx') {
         default_workflow_permissions: "read",
       },
     },
+    orgs.newRepo('basyx-starter-kit') {
+      allow_merge_commit: true,
+      allow_update_branch: false,
+      delete_branch_on_merge: false,
+      description: "Generate ready-to-run Eclipse BaSyx setups with Docker Compose",
+      topics+: [
+        "basyx",
+        "aas",
+        "assetadministrationshell",
+        "starter-kit",
+        "digitaltwin",
+        "configuration",
+        "docker"
+      ],
+      web_commit_signoff_required: false,
+      has_discussions: true,
+      workflows+: {
+        default_workflow_permissions: "read",
+      },
+    },
     orgs.newRepo('basyx-typescript-sdk') {
       allow_merge_commit: true,
       allow_update_branch: false,
