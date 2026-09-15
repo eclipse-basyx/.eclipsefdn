@@ -59,6 +59,7 @@ orgs.newOrg('dt.basyx', 'eclipse-basyx') {
       },
     },
     orgs.newRepo('basyx-applications') {
+      archived: true,
       allow_merge_commit: true,
       allow_update_branch: false,
       delete_branch_on_merge: false,
@@ -143,26 +144,6 @@ orgs.newOrg('dt.basyx', 'eclipse-basyx') {
         default_workflow_permissions: "read",
       },
     },
-    orgs.newRepo('dpp-api') {
-      allow_merge_commit: true,
-      allow_update_branch: false,
-      delete_branch_on_merge: false,
-      description: "Open Source implementation of the EN 18222 2026 Digital Product Passport API standard",
-      topics+: [
-        "dpp",
-        "digital-product-passport",
-        "aas",
-        "jtc24",
-        "espr",
-        "ecodesign",
-        "api"
-      ],
-      web_commit_signoff_required: false,
-      has_discussions: true,
-      workflows+: {
-        default_workflow_permissions: "read",
-      },
-    },
     orgs.newRepo('basyx-studio') {
       allow_merge_commit: true,
       allow_update_branch: false,
@@ -227,17 +208,8 @@ orgs.newOrg('dt.basyx', 'eclipse-basyx') {
         default_workflow_permissions: "write",
       },
     },
-    orgs.newRepo('basyx-cpp-components') {
-      allow_merge_commit: true,
-      allow_update_branch: false,
-      delete_branch_on_merge: false,
-      description: "cpp-components",
-      web_commit_signoff_required: false,
-      workflows+: {
-        default_workflow_permissions: "write",
-      },
-    },
     orgs.newRepo('basyx-cpp-sdk') {
+      archived: true,
       allow_merge_commit: true,
       allow_update_branch: false,
       delete_branch_on_merge: false,
@@ -262,6 +234,7 @@ orgs.newOrg('dt.basyx', 'eclipse-basyx') {
       },
     },
     orgs.newRepo('basyx-demonstrators') {
+      archived: true,
       allow_merge_commit: true,
       allow_update_branch: false,
       delete_branch_on_merge: false,
@@ -280,6 +253,7 @@ orgs.newOrg('dt.basyx', 'eclipse-basyx') {
       },
     },
     orgs.newRepo('basyx-dotnet-applications') {
+      archived: true,
       allow_merge_commit: true,
       allow_update_branch: false,
       delete_branch_on_merge: false,
@@ -290,6 +264,7 @@ orgs.newOrg('dt.basyx', 'eclipse-basyx') {
       },
     },
     orgs.newRepo('basyx-dotnet-components') {
+      archived: true,
       allow_merge_commit: true,
       allow_update_branch: false,
       delete_branch_on_merge: false,
@@ -300,6 +275,7 @@ orgs.newOrg('dt.basyx', 'eclipse-basyx') {
       },
     },
     orgs.newRepo('basyx-dotnet-examples') {
+      archived: true,
       allow_merge_commit: true,
       allow_update_branch: false,
       delete_branch_on_merge: false,
@@ -310,6 +286,7 @@ orgs.newOrg('dt.basyx', 'eclipse-basyx') {
       },
     },
     orgs.newRepo('basyx-dotnet-sdk') {
+      archived: true,
       allow_merge_commit: true,
       allow_update_branch: false,
       delete_branch_on_merge: false,
@@ -425,6 +402,7 @@ orgs.newOrg('dt.basyx', 'eclipse-basyx') {
       },
     },
     orgs.newRepo('basyx-pdf-to-aas') {
+      archived: true,
       allow_merge_commit: true,
       allow_update_branch: false,
       delete_branch_on_merge: false,
