@@ -47,6 +47,9 @@ orgs.newOrg('dt.basyx', 'eclipse-basyx') {
     orgs.newOrgSecret('CENTRAL_SONATYPE_TOKEN_USERNAME') {
       value: 'pass:bots/dt.basyx/central.sonatype.org/token-username',
     },
+    orgs.newOrgSecret('SIGNPATH_API_TOKEN') {
+      value: 'pass:bots/dt.basyx/signpath.io/api-token',
+    },
   ],
   _repositories+:: [
     orgs.newRepo('.github') {
